@@ -12,6 +12,11 @@ class TestsClazz{
     public static void main(String[] args){
         Integer a = 4; new TestsClazz().probe(a); //5
         int b = 4; new TestsClazz().probe(b); //6
+        
+        do{
+        	break;
+        }while(true);
+        
     }
 }
 
